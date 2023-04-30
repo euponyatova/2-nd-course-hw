@@ -1,119 +1,120 @@
 * {
-  margin: 0;
-  padding: 0;
-}
-
-body {
-  font-family: "Montserrat", sans-serif;
-}
-
-.center {
-  padding-left: calc(50% - 600px);
-  padding-right: calc(50% - 600px);
-}
-.header {
-  height: 1024px;
-  background-image: url(image/back.jpg);
-  background-repeat: no-repeat;
-  background-position: center;
-  background-size: cover;
-}
-
-.header__title {
-  font-family: "Montserrat";
-  font-weight: 700;
-  font-size: 64px;
-  line-height: 78px;
-  width: 789px;
-  height: 125px;
-  padding-top: 217px;
-  color: #ffffff;
-}
-
-.header__text {
-  width: 481px;
-  height: 64px;
-  font-style: normal;
-  font-weight: 300;
-  font-size: 18px;
-  line-height: 32px;
-  /* display: flex; */
-  /* align-items: center; */
-  color: #ffffff;
-  padding-top: 32px;
-  margin-bottom: 44px;
-}
-
-.text-bold {
-  font-weight: 500;
-}
-
-.header__button {
-  width: 234.06px;
-  height: 48.6px;
-  background: #9c0332;
-  border-radius: 30px;
-  font-size: 18px;
-  color: #ffffff;
-}
-
-.nav-game {
-  background: #000915;
-  min-height: 556px;
-  padding: 128px 120px;
-  display: grid;
-  gap: 32px;
-  grid-template-columns: repeat(12, 1fr);
-}
-
-.nav-game__item {
-  display: flex;
-  justify-content: flex-start;
-  align-items: flex-end;
-  padding: 32px;
-}
-
-.nav-game__item1 {
-  grid-column: span 4;
-  height: 300px;
-  background: linear-gradient(180deg, rgba(39, 1, 15, 0) 0%, #001944 100%),
-    url(image/game1.svg);
-  border-radius: 16px;
-  background-repeat: no-repeat;
-  background-position: center;
-  border-radius: 16px;
-}
-
-.nav-game__item2 {
-  grid-column: span 4;
-  height: 300px;
-  background: linear-gradient(180deg, rgba(39, 1, 15, 0) 0%, #001944 100%),
-    url(image/game2.svg);
-  border-radius: 16px;
-  background-repeat: no-repeat;
-  background-position: center;
-  border-radius: 16px;
-}
-
-.nav-game__item3 {
-  grid-column: span 4;
-  height: 300px;
-  background: linear-gradient(180deg, rgba(39, 1, 15, 0) 0%, #001944 100%),
-    url(image/game3.svg);
-  border-radius: 16px;
-  background-repeat: no-repeat;
-  background-position: center;
-  border-radius: 16px;
-}
-
-.nav-game__link {
-  text-decoration: none;
-  font-style: normal;
-  font-weight: 600;
-  font-size: 24px;
-  line-height: 32px;
-  /* identical to box height, or 133% */
-  display: flex;
-  align-items: center;
-  color: #ffffff;
-}
+    margin: 0;
+    padding: 0;
+  }
+  
+  body {
+    font-family: "Montserrat", sans-serif;
+  }
+  
+  .center {
+    padding-left: calc(50% - 600px);
+    padding-right: calc(50% - 600px);
+  }
+  .header {
+    height: 1024px;
+    background-image: url(image/back.jpg);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+  }
+  
+  .header__title {
+    font-family: "Montserrat";
+    font-weight: 700;
+    font-size: 64px;
+    line-height: 78px;
+    width: 789px;
+    height: 125px;
+    padding-top: 217px;
+    color: #ffffff;
+  }
+  
+  .header__text {
+    width: 481px;
+    height: 64px;
+    font-style: normal;
+    font-weight: 300;
+    font-size: 18px;
+    line-height: 32px;
+    /* display: flex; */
+    /* align-items: center; */
+    color: #ffffff;
+    padding-top: 32px;
+    margin-bottom: 44px;
+  }
+  
+  .text-bold {
+    font-weight: 500;
+  }
+  
+  .header__button {
+    width: 234.06px;
+    height: 48.6px;
+    background: #9c0332;
+    border-radius: 30px;
+    font-size: 18px;
+    color: #ffffff;
+  }
+  
+  .nav-game {
+    background: #000915;
+    min-height: 556px;
+    padding: 128px 120px;
+    display: grid;
+    gap: 32px;
+    grid-template-columns: repeat(12, 1fr);
+  }
+  
+  .nav-game__item {
+    display: flex;
+    justify-content: flex-start;
+    align-items: flex-end;
+    padding: 32px;
+  }
+  
+  .nav-game__item1 {
+    grid-column: span 4;
+    height: 300px;
+    background: linear-gradient(180deg, rgba(39, 1, 15, 0) 0%, #001944 100%),
+      url(image/game1.svg);
+    border-radius: 16px;
+    background-repeat: no-repeat;
+    background-position: center;
+    border-radius: 16px;
+  }
+  
+  .nav-game__item2 {
+    grid-column: span 4;
+    height: 300px;
+    background: linear-gradient(180deg, rgba(39, 1, 15, 0) 0%, #001944 100%),
+      url(image/game2.svg);
+    border-radius: 16px;
+    background-repeat: no-repeat;
+    background-position: center;
+    border-radius: 16px;
+  }
+  
+  .nav-game__item3 {
+    grid-column: span 4;
+    height: 300px;
+    background: linear-gradient(180deg, rgba(39, 1, 15, 0) 0%, #001944 100%),
+      url(image/game3.svg);
+    border-radius: 16px;
+    background-repeat: no-repeat;
+    background-position: center;
+    border-radius: 16px;
+  }
+  
+  .nav-game__link {
+    text-decoration: none;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 24px;
+    line-height: 32px;
+    /* identical to box height, or 133% */
+    display: flex;
+    align-items: center;
+    color: #ffffff;
+  }
+  
